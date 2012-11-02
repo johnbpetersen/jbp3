@@ -1,0 +1,22 @@
+!!!
+%html
+  %head
+    %title #{yield :title} JBP3
+    = stylesheet_link_tag 'application'
+    = javascript_include_tag 'application'
+    = csrf_meta_tag
+
+  %body
+    .navbar.navbar-fixed-top
+      .navbar-inner
+        .container
+          %ul.nav
+            %li= link_to 'JBP3', root_path
+            %li= link_to 'All About ME', about_path
+            %li= link_to 'Me + Internet = <3', internet_me_path
+            %li= link_to 'Internet Awesomeness', awesome_internet_path
+            %li= link_to 'The Blog', root_path
+
+    .container
+      .main
+        = yield

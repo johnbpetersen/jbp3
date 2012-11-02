@@ -1,4 +1,11 @@
 Jbp3::Application.routes.draw do
+  
+  match '/about' => 'public#about'
+  match '/internet_me' => 'public#internet_me'
+  match '/awesome_internet' => 'public#awesome_internet'
+  
+  root :to => 'public#index'
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
