@@ -1,8 +1,8 @@
 Jbp3::Application.routes.draw do
   
-  match '/about' => 'public#about'
-  match '/internet_me' => 'public#internet_me'
-  match '/awesome_internet' => 'public#awesome_internet'
+  match '/pictures' => 'public#pictures'
+  match '/blog' => 'public#blog'
+  match '/more' => 'public#more'
   
   root :to => 'public#index'
   
