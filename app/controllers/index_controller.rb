@@ -1,3 +1,3 @@
-class Index::ApplicationController < ApplicationController
+class IndexController < ApplicationController
   
 end
