@@ -6,6 +6,7 @@ gem "haml-rails"
 gem 'jquery-rails'
 gem "inherited_resources"
 gem 'bcrypt-ruby', '~> 3.0.0'
+gem 'capistrano'
 
 
 # Gems used only for assets and not required
