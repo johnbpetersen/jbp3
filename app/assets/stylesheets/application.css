@@ -11,9 +11,3 @@
  *= require_self
  *= require_tree .
  */
-
-.clearfix:after
-  content: "."
-  display: block
-  clear: both
-  visibility: hidden
