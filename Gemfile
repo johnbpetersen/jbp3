@@ -7,6 +7,7 @@ gem 'jquery-rails'
 gem "inherited_resources"
 gem 'bcrypt-ruby', '~> 3.0.0'
 gem 'capistrano'
+gem 'unicorn'
 
 
 # Gems used only for assets and not required
